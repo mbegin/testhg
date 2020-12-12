@@ -1,5 +1,5 @@
 /*
-File: HGraphMain.js
+File: HGraphMain.js  - v1.0 - 2020-12-12
 
 Description:
     Combines metrics and user data files in a hGraph friendly format

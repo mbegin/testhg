@@ -1,5 +1,5 @@
 /*
-File: hUsers.js
+File: hUsers.js - v1.0 - 2020-12-12
 
 Description:
     Devises a multiuser environment. This includes user selection, menus and calling

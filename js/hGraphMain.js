@@ -1,5 +1,5 @@
 /*
-File: HGraphMain.js
+File: HGraphMain.js - v1.0 - 2020-12-12
 
 Description:
 	Example main method and helper functions
