@@ -1,6 +1,6 @@
 /*global d3: true */
 /*
-File: HGraph.js
+File: HGraph.js - v1.0 - 2020-12-12
 
 Description:
 	Class for generating the Health Score Graphs
