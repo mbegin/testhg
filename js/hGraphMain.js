@@ -136,7 +136,7 @@ $(document).ready(function (){
 		minWidth = parseInt(container.css('min-width'));
 
 	// fetch metric file
-	d3.json("data/metrics.json", function(metrics, error) {
+	d3.json("https://cdn.jsdelivr.net/gh/mbegin/testhg@master/data/metrics.json", function(metrics, error) {
 		if (error) return;
 
 		usermenu = $('#user-selection');
