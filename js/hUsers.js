@@ -69,7 +69,7 @@ initialize = function(opts){
     *       "name":"Kate Sonin",
     *   ...
     */
-    d3.json("data/users.json", function(json, error) {
+    d3.json("https://cdn.jsdelivr.net/gh/mbegin/testhg@c6b4818960b8875f6d903c403d4eb4f8a2248008/data/users.json", function(json, error) {
         if (error) return;
         users = json;
 
@@ -199,7 +199,7 @@ initializeUser = function(user) {
     }
 
     // loads user json datafile
-    d3.json("data/user-data/" + user.id + ".json", function(json, error) {
+    d3.json("https://cdn.jsdelivr.net/gh/mbegin/testhg@c6b4818960b8875f6d903c403d4eb4f8a2248008/data/user-data/" + user.id + ".json", function(json, error) {
         if (error) return;
         // converts the data to a hGraph friendly format
         var dataPoints = mu.data.process(json);
