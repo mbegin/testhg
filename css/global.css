@@ -11,7 +11,7 @@
 html {
   min-height: 100%;
   margin-bottom: 1px;
-  overflow: hidden;
+  /*overflow: hidden; */
 }
 
 /* line 12, ../scss/partials/_structure.scss */
@@ -112,12 +112,12 @@ html, body {
 
 /* line 63, ../scss/partials/_multiuser.scss */
 #user-selection {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   background-color: #e2e4e3;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
   -moz-box-shadow: 0px -3px 3px #eee;
   -webkit-box-shadow: 0px -3px 3px #eee;
   box-shadow: 0px -3px 3px #eee;
